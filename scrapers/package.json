@@ -1,0 +1,27 @@
+{
+  "name": "Discordio-scrapers",
+  "version": "1.0.0",
+  "description": "Scrapers to build the song library for a Discord bot that plays songs 24/7 from a song library",
+  "main": "update.js",
+  "scripts": {
+    "start": "node update.js"
+  },
+  "keywords": [
+    "discord",
+    "discord.js",
+    "nodejs",
+    "music",
+    "radio",
+    "24/7",
+    "spotify",
+    "youtube",
+    "bot"
+  ],
+  "author": "RogueArt <rogueart.dev@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fast-html-parser": "^1.0.1",
+    "puppeteer-cluster": "^0.22.0"
+  }
+}

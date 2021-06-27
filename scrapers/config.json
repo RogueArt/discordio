@@ -1,0 +1,8 @@
+{
+  "UPDATE_ON_START": true,
+  "client_id": "REPLACE WITH YOURS HERE",
+  "client_secret": "REPLACE WITH YOURS HERE",
+  "MAX_CONCURRENCY": 1,
+  "MAX_TIMEOUT": 300000,
+  "IS_HEADLESS": true
+}
