@@ -1,6 +1,5 @@
 require('dotenv').config()
 const { PREFIX, TOKEN } = process.env
-// const { prefix, token } = require("./json/config.json")
 
 const fs = require('fs')
 const ytdl = require("ytdl-core-discord");
@@ -100,6 +99,7 @@ async function play(guild) {
   serverQueue.textChannel.send(`Playing: **${song.title}**`);
 }
 
+// < Source code written by RogueArt @ https://github.com/RogueArt >
 /*<======================SKIP======================>*/
 // Skip a song
 function skip(msg, serverQueue) {

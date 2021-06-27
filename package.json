@@ -1,19 +1,17 @@
 {
-  "name": "music-bot",
+  "name": "Discordio",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Discord bot that plays songs 24/7 from a song library",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["discord", "discord.js", "nodejs", "music", "radio", "24/7", "spotify", "youtube", "bot"],
+  "author": "RogueArt <rogueart.dev@outlook.com>",
   "license": "ISC",
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
     "discord.js": "^12.5.1",
-    "express": "^4.17.1",
-    "fast-html-parser": "^1.0.1",
     "ffmpeg": "0.0.4",
     "ffmpeg-static": "^4.2.7",
     "fluent-ffmpeg": "^2.1.2",
